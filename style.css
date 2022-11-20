@@ -55,6 +55,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    flex: 1;
 }
 
 .title {
@@ -75,11 +76,6 @@ ul {
     height: 30px;
     font-weight: bolder;
     font-size: 18px;
-}
-
-.content1 img {
-    display: flex;
-    flex: 1;
 }
 
 /*content2 part*/
