@@ -7,13 +7,78 @@ body {
     min-height: 100vh;
 }   
 
+/*Header part*/
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+.header {
+    background-color: brown;
+    height: 72px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    align-items: center;
+}
+
+/*footer part*/
+.footer {
+    display: flex;
+    background-color: darkred;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/*content1 part*/
+.content1 {
+    display: flex;
+    background-color: brown;
+    padding: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bolder;
+}
+.text1 {
+    color: wheat;
+}
+
+.signupbut1 {
+    background-color: white;
+    color: red;
+    border-color: darkred;
+    border: 20px;
+    border-radius: 10px;
+}
+
+/*content2 part*/
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxgroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.textnbox {
+    text-align: center;
 }
