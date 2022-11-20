@@ -46,6 +46,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 10px;
 }
 /*content1 part*/
 .content1 {
@@ -92,7 +93,7 @@ ul {
 .boxgroup {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -106,6 +107,7 @@ ul {
     width: 300px;
     font-size: larger;
     text-align: justify;
+    gap: 10px;
 }
 
 .boxgroup img {
